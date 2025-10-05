@@ -51,6 +51,9 @@ Checkpoints and adapter models will be saved in the corresponding `outputs/qwen7
 ### 4. Outputs
 
 - **Epoch_TrainLoss_Graph.png**: Shows training loss and GPU memory usage for each quantization mode.
+
+![Training Loss and GPU Memory](outputs/Epoch_TrainLoss_Graph.png)
+
 - **qwen7b_lora_{2bit,4bit,8bit}/**: Contains adapter model files, tokenizer, and checkpoints for each quantization.
 
 ---
