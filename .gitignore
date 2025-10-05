@@ -1,0 +1,46 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+.env/
+.venv/
+venv/
+
+# Ignore Jupyter and IPython files
+.ipynb_checkpoints/
+
+# Ignore dataset and output artifacts
+outputs/
+datasets/
+
+# Ignore model checkpoints and large files
+*.safetensors
+*.pt
+*.bin
+*.arrow
+*.pth
+*.h5
+*.ckpt
+
+# Ignore logs and graphs
+*.log
+*.png
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore batch and PowerShell script outputs
+*.bak
+*.tmp
+
+# Ignore Python package files
+dist/
+build/
+*.egg-info/
